@@ -6,3 +6,4 @@ flask_caching==2.4.1
 flask_cors==6.0.5
 redis==5.2.1
 celery==5.4.0
+gunicorn>=21.2.0
