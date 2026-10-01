@@ -1,0 +1,68 @@
+:root {
+  --ppa-primary: #2c3e50;
+  --ppa-accent: #2563eb;
+}
+
+body {
+  background: #f4f6fa;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.page-wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+.stat-card {
+  border: none;
+  border-radius: 14px;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.stat-card .num {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.badge-status {
+  text-transform: capitalize;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2c3e50, #2563eb);
+  color: #fff;
+  border-radius: 18px;
+  padding: 56px 32px;
+}
+
+.toast-fixed {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  z-index: 1080;
+  min-width: 280px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.table thead th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #6b7280;
+}

@@ -1,0 +1,8 @@
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.35
+Flask-JWT-Extended==4.6.0
+flask_caching==2.4.1
+flask_cors==6.0.5
+redis==5.2.1
+celery==5.4.0
